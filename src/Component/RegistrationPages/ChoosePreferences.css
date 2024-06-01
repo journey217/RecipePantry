@@ -1,0 +1,48 @@
+.cuisine-item {
+    text-align: center;
+    cursor: pointer;
+}
+
+.selected_choose_pref {
+    border: 2px solid black;
+    background-color: #eaa861;
+    border-radius: 10px;
+}
+
+.container_choose_pref {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_chose_pref {
+    margin-bottom: 20px;
+}
+
+.preferences-grid_choose_pref {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.preference-item_choose_pref {
+    text-align: center;
+    cursor: pointer;
+    background-color: #C8C8C8; /* Light gray background */
+    border-radius: 10px; /* Rounded corners for the backdrop */
+    padding: 10px; /* Padding around the content */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the items vertically */
+}
+
+.preference-item_choose_pref img {
+    width: 100px; /* Adjust according to your preference */
+    height: 75px; /* Adjust according to your preference */
+    border-radius: 8px; /* Rounded corners for the image */
+    margin-bottom: 5px; /* Space between the image and the text */
+}
+
+.pref-text_choose {
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+span{
+    color: orange;
+    font-size: 200%;
+    padding-left: 50px;
+    padding-right: 50px
+}
+
+html{
+    background-color: rgb(124, 182, 193);
+    font-family: "Times New Roman", 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+header{
+    font-size: 150%;
+}
+
+
+main{
+    font-size: 150%;
+    padding-left: 700px;
+    padding-right: 700px;
+    padding-bottom: 300px;
+}
+
+footer{
+    text-align: bottom;
+}
+

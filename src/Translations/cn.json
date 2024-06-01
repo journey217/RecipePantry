@@ -1,0 +1,710 @@
+{
+    "AccountRecovery":{
+        "LoginRecovery":{
+            "enter_email_error": "请输入您的电子邮件。",
+            "process_init_fail": "无法启动恢复过程。请检查提供的电子邮件，然后重试。",
+            "logo_alt": "标志",
+            "login_recovery": "登录恢复",
+            "account_email": "帐户电子邮件",
+            "submit": "提交",
+            "back_to_login": "返回登录"
+        },
+        
+        "ResetPassword":{
+            "pw_match_error": "新密码不匹配。",
+            "pw_charlen_error": "密码长度必须至少为8个字符。",
+            "pw_success_redirect": "密码重置成功！正在重定向。。",
+            "pw_reset_fail": "重置密码失败。",
+            "logo": "标志",
+            "reset_password": "重置密码",
+            "code": "代码",
+            "new_password": "新密码",
+            "confirm_new_password": "验证新密码",
+            "back_to_login": "返回登录"
+        }
+    },
+
+    "CookbookPages":{
+        "AddToCookbookJourney":{
+            "default_name": "默认名称",
+            "add_success": "此食谱已成功添加到您的食谱中！",
+            "disappear_shortly": "此消息将很快消失。",
+            "select_cookbook": "选择一本烹饪书：",
+            "choose_here": "在此处选择",
+            "add_to_cookbook": "将食谱添加到食谱",
+            "no_cookbooks_error": "你没有烹饪书！您必须先创建一个。",
+            "already_added_error": "这个食谱已经是这本食谱的一部分了。请选择不同的食谱或尝试不同的食谱。",
+            "select_cookbook_error": "请选择一本烹饪书。"
+        },
+
+        "CookbooksJourney":{
+            "default_name": "默认名称",
+            "no_desc": "无说明。",
+            "popular": "受喜爱的",
+            "newest": "最新的",
+            "for_you": "推荐",
+            "home": "主页",
+            "cookbooks": "烹饪书",
+            "search_cookbook_placeholder": "搜索烹饪书。。。",
+            "search_alt": "搜索",
+            "bookmarks": " 书签",
+            "bookmark": " 书签",
+            "by1": "",
+            "by2": " 著",
+            "load_more": "加载更多",
+            "create_cookbook": "制作一本烹饪书"
+        },
+        
+        "CreateCookbookJourney":{
+            "cookbook_created": "您的食谱已经创建。",
+            "redirect_notice1": "您将很快被重定向到您",
+            "redirect_notice2": "创建的烹饪书页面。",
+            "create_cookbook": "制作一本烹饪书",
+            "cbn_error": "请添加烹饪书名称。",
+            "cookbook_name": "食谱名称：",
+            "cbn_placeholder": "例如：健康早餐",
+            "cbdesc_error": "请为您的烹饪书添加描述。",
+            "cb_desc": "食谱说明：",
+            "cb_desc_placeholder": "例如：从皮蛋瘦肉粥到叉烧包。。。",
+            "add_tags": "添加标记：",
+            "separate_tags_by_commas": "请用逗号分隔所有标签",
+            "tags_placeholder": "例如：早餐，皮蛋，。。。",
+            "dims_error1": "请选择至少为",
+            "dims_error2": " x ",
+            "dims_error3": "像素的图像。",
+            "image_upload_error": "请上传封面图片。",
+            "image_size_error": "图像大小不能超过3 MB。",
+            "upload_cover_image": " 上传封面图片：",
+            "image_size_instruct": "图像大小不得超过3 MB",
+            "create_cookbook_btn": "创建烹饪书",
+            "Uploaded image preview": "上传的图像预览"
+        },
+
+        "DisplayCookbookJourney":{
+            "unnamed": "未命名的",
+            "no_desc": "无说明。",
+            "remove_recipe_success": "此食谱已成功从您的食谱中删除！",
+            "disappear_shortly": "此消息将很快消失。",
+            "remove_from_cookbook": "从食谱中删除",
+            "saved_to_bookmarks": "",
+            "already_saved": "此烹饪书已保存到书签。",
+            "delete_post_alt": "删除帖子",
+            "cancel": "取消",
+            "delete_cookbook": "删除食谱",
+            "back": "返回",
+            "edit_cookbook": "编辑食谱",
+            "bookmark": "保存",
+            "bookmarks_undertext": " 书签",
+            "bookmark_undertext": " 书签"
+        },
+
+        "EditCookbookJourney":{
+            "cookbook_created": "您的食谱已经创建。",
+            "redirect_notice1": "您将很快被重定向到您",
+            "redirect_notice2": "创建的烹饪书页面。",
+            "edit_cookbook": "编辑食谱",
+            "cbn_error": "请添加烹饪书名称。",
+            "edit_cookbook_name": "编辑烹饪书名称：",
+            "cbn_placeholder": "例如：健康早餐",
+            "cbdesc_error": "请为您的烹饪书添加描述。",
+            "edit_cb_desc": "编辑烹饪书描述：",
+            "cb_desc_placeholder": "例如：从皮蛋瘦肉粥到叉烧包。。。",
+            "edit_tags": "编辑标记：",
+            "separate_tags_by_commas": "请用逗号分隔所有标签",
+            "tags_placeholder": "例如：早餐，皮蛋，。。。",
+            "dims_error1": "请选择至少为",
+            "dims_error2": " x ",
+            "dims_error3": "像素的图像。",
+            "image_upload_error": "请上传封面图片。",
+            "image_size_error": "图像大小不能超过3 MB。",
+            "edit_cover_image": " 编辑封面图像：",
+            "image_size_instruct": "图像大小不得超过3 MB",
+            "save_changes": "保存更改"
+        },
+
+        "FollowingCookbooksJourney":{
+            "default_name": "默认名称",
+            "no_desc": "无说明。",
+            "following_recipes": "以下食谱",
+            "following_cookbooks": "遵循食谱",
+            "search_for_cookbook": "搜索烹饪书。。。",
+            "search_alt": "搜索",
+            "no_cookbooks_found": "找不到烹饪书。",
+            "bookmarks": " 书签",
+            "bookmark": " 书签",
+            "by1": "",
+            "by2": " 著",
+            "load_more": "加载更多",
+            "create_cookbook": "制作一本烹饪书",
+            "popular": "受喜爱的",
+            "newest": "最新的"
+        },
+
+        "MyCookbooksJourney":{
+            "default_name": "默认名称",
+            "delete_post_alt": "删除帖子",
+            "finish": "完成",
+            "delete_cookbooks": "删除烹饪书",
+            "popular": "受喜爱的",
+            "newest": "最新的",
+            "popular_cookbooks": "流行的烹饪书",
+            "newest_cookbooks": "最新烹饪书",
+            "my_recipes": "我的食谱",
+            "my_cookbooks": "我的烹饪书",
+            "likes": "点赞：",
+            "create_cookbook": "制作一本烹饪书",
+            "no_cookbooks_yet": "还没有烹饪书！",
+            "bookmarks": " 书签",
+            "bookmark": " 书签",
+            "delete_post_button_confirm": "删除帖子按钮确认"
+        },
+
+        "SavedCookbooksJourney":{
+            "default_name": "默认名称",
+            "delete_post_alt": "删除帖子",
+            "finish": "完成",
+            "remove_cookbooks": "删除烹饪书",
+            "popular": "受喜爱的",
+            "newest": "最新的",
+            "no_cookbooks_found": "找不到烹饪书。",
+            "no_recipes_found": "找不到食谱。",
+            "popular_cookbooks": "流行的烹饪书",
+            "newest_cookbooks": "最新烹饪书",
+            "bookmarks": "书签",
+            "liked_posts": "点赞的帖子",
+            "likes": "点赞：",
+            "create_cookbook": "制作一本烹饪书",
+            "bookmarks_undertext": " 书签",
+            "bookmark_undertext": " 书签"
+        },
+
+        "SearchCookbooksJourney":{
+            "search_results_for": "“",
+            "end_double_quote": "”的搜索结果",
+            "default_name": "默认名称",
+            "no_desc": "无说明。",
+            "ingredients": "材料",
+            "recipes": "食谱",
+            "cookbooks": "烹饪书",
+            "search_for_cookbook": "搜索烹饪书。。。",
+            "search_alt": "搜索",
+            "no_cookbooks_found": "找不到烹饪书。",
+            "bookmarks": " 书签",
+            "bookmark": " 书签",
+            "by1": "",
+            "by2": " 著",
+            "load_more": "加载更多",
+            "create_cookbook": "制作一本烹饪书",
+            "popular": "受喜爱的",
+            "newest": "最新的"
+        },
+
+        "UserCookbooksJourney":{
+            "default_name": "默认名称",
+            "popular": "受喜爱的",
+            "newest": "最新的",
+            "user_cookbooks": "的烹饪书",
+            "likes": "点赞：",
+            "create_cookbook": "制作一本烹饪书",
+            "no_cookbooks_yet": "还没有烹饪书！",
+            "bookmarks": " 书签",
+            "bookmark": " 书签"
+        }
+    },
+
+    "Cuisines":{
+        "Cuisines":{
+            "search_results_for": "“",
+            "end_double_quote": "”的搜索结果",
+            "default_name": "默认名称",
+            "no_desc": "无说明。",
+            "ingredients": "材料",
+            "recipes": "食谱",
+            "cookbooks": "烹饪书",
+            "search_for_cuisine": "搜索美食。。。",
+            "search": "搜索",
+            "no_recipes_found": "找不到食谱。",
+            "hide_post": "隐藏帖子",
+            "likes": " 点赞",
+            "like": " 点赞",
+            "load_more": "加载更多",
+            "post_recipe": "发布食谱",
+            "popular": "受喜爱的",
+            "newest": "最新的"
+        },
+
+        "SearchByIngredientsJourney":{
+            "default_name": "默认名称",
+            "no_desc": "无说明。",
+            "ingredients": "材料",
+            "recipes": "食谱",
+            "cookbooks": "烹饪书",
+            "ingredient_num_error": "至少输入一种成分。",
+            "search_title": "最多搜索5种成分。",
+            "ingredient_placeholder1": "例如番茄",
+            "ingredient_placeholder2": "例如培根",
+            "ingredient_placeholder3": "例如生菜",
+            "ingredient_placeholder4": "例如面包", 
+            "ingredient_placeholder5": "例如奶酪",
+            "search": "搜索",
+            "no_recipes_found": "找不到食谱。",
+            "likes": "点赞",
+            "like": "点赞",
+            "hide_post": "隐藏帖子",
+            "load_more": "加载更多",
+            "post_recipe":"发布食谱",
+            "popular": "受喜爱的",
+            "newest": "最新的"
+        }
+    },
+
+    "FriendsPages":{
+        "FollowButtonJourney":{
+            "following": "已关注",
+            "follow": "关注"
+        },
+
+        "FollowersJessica":{
+            "error": "错误：",
+            "loading": "加载。。。",
+            "followers": "粉丝",
+            "no_followers": "这里没什么可看的！你没有粉丝。"
+        },
+
+        "FollowersJourney":{
+            "error": "错误：",
+            "loading": "加载。。。",
+            "followers": "的粉丝",
+            "no_followers1": "这里没什么可看的！",
+            "no_followers2": " 没有粉丝。"
+        },
+
+        "FollowingJessica":{
+            "error": "错误：",
+            "loading": "加载。。。",
+            "following": "关注",
+            "no_following": "这里没什么可看的！ 你关注的用户会显示在这里。"
+        },
+
+        "FollowingJourney":{
+            "error": "错误：",
+            "loading": "加载。。。",
+            "following": "的关注",
+            "no_following1": "这里没什么可看的！",
+            "no_following2": "还没有"
+        },
+
+        "FollowToggleJessica":{
+            "follow": "关注",
+            "following": "已关注"
+        }
+    },
+
+    "LoginPages":{
+        "EmailCheckPlaceholder":{
+            "fields_empty": "您将一个或多个输入字段留空。",
+            "try_again": "再试一次"
+        },
+    
+        "LoggedInPlaceHolder":{
+            "functionality_not_implemented": "登录功能尚未实现。",
+            "go_back": "回去"
+        },
+    
+        "LoginForm":{
+            "enter_email": "请输入您的电子邮件地址。",
+            "enter_password": "请输入您的密码。",
+            "invalid_credentials": "您输入的登录凭据无效。",
+            "log_in": "登录",
+            "phone_screenshots_alt": "Recipe Pantry 手机屏幕截图",
+            "logo_alt": "标志",
+            "email": "邮箱",
+            "email_address": "电子邮件地址",
+            "password": "密码",
+            "forgot_password": "忘记密码？",
+            "don't_have_account": "没有帐户？",
+            "create_account_here": "在此处创建一个。"
+        }
+    },
+
+    "ProfilePages":{
+
+        "ConfirmDelete":{
+            "enter_password_error": "请输入您的密码。",
+            "wrong_password_error": "密码错误。请再试一次。",
+            "account_deleted": "您的帐户已被删除。",
+            "redirect1": "您将很快被重",
+            "redirect2": "定向到主页。",
+            "enter_password": "请输入您的密码以删除您的帐户。",
+            "delete_account_warning": "警告：此操作无法撤消。",
+            "delete_account": "删除帐户",
+            "cancel": "取消"
+        },
+
+        "EditCuisinesJourney":{
+            "italian": "意大利",
+            "japanese": "日本",
+            "chinese": "中国",
+            "greek": "希腊",
+            "brazilian": "巴西",
+            "indonesian": "印尼",
+            "american": "美式",
+            "mexican": "墨西哥",
+            "spanish": "西班牙",
+            "french": "法国",
+            "indian": "印度",
+            "korean": "韩国",
+            "loading": "加载。。。",
+            "edit_cuisine_preferences": "编辑烹饪偏好",
+            "choose_cuisine_error": "你必须至少选择一道菜。",
+            "click_cuisines": "至少点击一个你最喜欢的美食！",
+            "save": "保存"
+        },
+
+        "EditDietaryJourney":{
+            "vegan": "素食主义者",
+            "meat": "肉",
+            "gluten_free": "无麸质的",
+            "nopork": "没有猪肉",
+            "dairy": "乳品的",
+            "eggs": "鸡蛋",
+            "seafood": "海鲜",
+            "allergenfree": "无过敏原的",
+            "nutfree": "无螺母的",
+            "loading": "加载。。。",
+            "edit_dietary_preferences": "编辑饮食偏好",
+            "click_preferences": "点击您的偏好！",
+            "save": "保存"
+        },
+
+        "EditProfile":{
+            "pfp_error": "请提交一张文件名中没有空格的照片。",
+            "display_name_error": "请输入显示名称。",
+            "display_name_length_error": "显示名称必须少于18个字符。",
+            "username_error": "请输入用户名。",
+            "username_length_error": "用户名必须少于18个字符。",
+            "bio_error": "个性签名太长了。",
+            "user": "使用者",
+            "display_name": "显示名称",
+            "username": "用户名",
+            "bio": "个性签名",
+            "save": "保存",
+            "delete_account": "删除帐户"
+        },
+
+        "Settings":{
+            "settings": "设置",
+            "hidden_posts": "隐藏的帖子"
+        },
+
+        "ShowProfileJessica":{
+            "na": "不适用",
+            "user": "使用者",
+            "no_cuisine_pref": "没有美食偏好。",
+            "no_dietary_pref": "没有饮食偏好。",
+            "cuisine_pref": "美食偏好",
+            "dietary_pref": "饮食偏好",
+            "recipes": "食谱",
+            "cookbooks": "烹饪书",
+            "italian": "意大利",
+            "japanese": "日本",
+            "chinese": "中国",
+            "greek": "希腊",
+            "brazilian": "巴西",
+            "indonesian": "印尼",
+            "american": "美式",
+            "mexican": "墨西哥",
+            "spanish": "西班牙",
+            "french": "法国",
+            "indian": "印度",
+            "korean": "韩国",
+            "vegan": "素食主义者",
+            "meat": "肉",
+            "glutenfree": "无麸质的",
+            "nopork": "没有猪肉",
+            "dairy": "乳品的",
+            "eggs": "鸡蛋",
+            "seafood": "海鲜",
+            "allergenfree": "无过敏原的",
+            "nutfree": "无螺母的"
+        },
+
+        "UserCardJessica":{
+            "profile_pic": "个人资料图片",
+            "user": "使用者",
+            "na": "不适用",
+            "no_bio_set": "没有个性签名。",
+            "followers": "粉丝",
+            "following": "关注"
+        }
+
+    },
+
+    "RegistrationPages":{
+        "RegisterForm":{
+            "pw_charlen_error": "密码长度必须至少为8个字符。",
+            "pw_match_error": "您键入的密码不匹配。",
+            "email_already_registered": "此电子邮件已注册到某个帐户。",
+            "create_account": "创建帐户",
+            "email": "邮箱",
+            "password": "密码（最少8个字符）",
+            "confirm_password": "验证密码",
+            "register": "登记",
+            "already_have_account": "已经有账户了吗？",
+            "login_here": "登录"
+        },
+
+        "RegistrationChooseCuisines":{
+            "italian": "意大利",
+            "japanese": "日本",
+            "chinese": "中国",
+            "greek": "希腊",
+            "brazilian": "巴西",
+            "indonesian": "印尼",
+            "american": "美式",
+            "mexican": "墨西哥",
+            "spanish": "西班牙",
+            "french": "法国",
+            "indian": "印度",
+            "korean": "韩国",
+            "back": "返回",
+            "choose_cuisines_title": "3. 选择美食",
+            "choose_cuisines_num_error": "你必须至少选择一道菜。",
+            "choose_cuisines_text": "至少点击一个你最喜欢的美食！",
+            "continue": "持续"
+        },
+
+        "RegistrationChoosePreferences":{
+            "vegan": "素食主义者",
+            "meat": "肉",
+            "glutenfree": "无麸质的",
+            "nopork": "没有猪肉",
+            "dairy": "乳品的",
+            "eggs": "鸡蛋",
+            "seafood": "海鲜",
+            "allergenfree": "无过敏原的",
+            "nutfree": "无螺母的",
+            "back": "返回",
+            "choose_pref_title": "4. 选择首选项",
+            "choose_pref_text": "单击您的首选项！",
+            "continue": "持续"
+        },
+
+        "RegistrationCreateProfile":{
+            "update_fail": "无法更新配置文件",
+            "fill_in_error": "填写所需的输入字段。",
+            "username_taken": "用户名已被占用。",
+            "special_char_error": "显示名称和用户名不得包含特殊字符。",
+            "create_profile_title": "2. 创建配置文件",
+            "display_name": "显示名称",
+            "username": "用户名",
+            "continue": "持续"
+        },
+
+        "RegistrationUploadPicture":{
+            "site_icon_alt": "网站徽标",
+            "upload_pfp_title": "1. 上传个人资料图片",
+            "upload_pfp_text1": "请单击“+”尚在JPEG文件，然后按“持续”。",
+            "upload_pfp_text2": "或者只需按“继续”跳过。",
+            "profile_alt": "轮廓",
+            "continue": "继续"
+        }
+    },
+
+    "FooterJourney":{
+        "resources": "资源",
+        "dev_pages": "开发者简介页面",
+        "style_guide": "样式指南"
+    },
+
+    "Navbar":{
+        "user": "使用者",
+        "profile": "轮廓",
+        "my_posts": "我的帖子",
+        "following_posts": "关注",
+        "liked_posts": "赞过的食谱",
+        "bookmarks": "书签",
+        "shopping_list": "购物清单",
+        "settings": "设置",
+        "logout": "注销",
+        "cuisines": "菜系",
+        "italian": "意大利",
+        "mexican": "墨西哥",
+        "american": "美式",
+        "search_cuisines": "搜索美食"
+    },
+
+    "ShoppingListJourney":{
+        "delete_ingredient": "删除成分",
+        "no_negative_error1": "不能有‘负面",
+        "no_negative_error2": "’。",
+        "more": "多？",
+        "less": "少？",
+        "char_error": "请输入20个或更少的字符。",
+        "no_input_error": "请输入配料。",
+        "shopping_list": "购物清单",
+        "ingredient_input_placeholder": "例如大葱",
+        "no_ingredients": "还没有配料。",
+        "add": "加"
+    },
+
+    "LandingPageJourney":{
+        "whoops1": "哎呀！您的帐户",
+        "whoops2": "属性似乎已过时。",
+        "click_to_fix": "单击按钮进行修复！",
+        "fix": "修理",
+        "default_name": "默认名称",
+        "no_desc": "无说明。",
+        "popular": "受喜爱的",
+        "newest": "最新的",
+        "popular_recipes": "流行食谱",
+        "newest_recipes": "最新食谱",
+        "for_you": "推荐",
+        "home": "主页",
+        "cookbooks": "烹饪书",
+        "search_for_recipe": "搜索配方。。。",
+        "private": "私人",
+        "hide_post": "隐藏帖子",
+        "likes": " 点赞",
+        "like": " 点赞",
+        "load_more": "加载更多",
+        "post_recipe": "发布食谱"
+    },
+
+    "UserBiosJourney":{
+        "dev_pages": "开发者简介页面",
+        "journey_profile": "Journey的个人资料",
+        "jessica_profile": "Jessica的个人资料",
+        "tiffany_profile": "Tiffany的个人资料",
+        "sheba_profile": "Sheba的个人资料",
+        "andrew_profile": "Andrew的个人资料"
+    },
+
+    "DisplayRecipeV2":{
+        "delete_post": "删除食谱",
+        "cancel": "取消",
+        "delete_recipe": "删除食谱",
+        "likes": " 点赞",
+        "like": " 点赞",
+        "Added": "已加入购物清单",
+        "Add to Shopping List": "添加到购物清单",
+        "Ingredients": "材料",
+        "Preparation Steps": "做法",
+        "Like Button": "点赞按钮",
+        "By": "著",
+        "Back": "返回",
+        "Unit Conversions": "单位转换",
+        "Edit Recipe": "编辑食谱",
+        "Recipe": "食谱",
+        "Comments": "评论",
+        "Add to Cookbook": "添加到烹饪书",
+        "hide_post": "隐藏帖子",
+        "unhide": "取消隐藏"
+    },
+
+    "Conversions":{
+        "Teaspoon": "茶匙", 
+        "Tablespoon": "汤匙",
+        "Cup": "杯",
+        "Invalid units.": "无效的单位。",
+        "Please input a value": "请输入一个值",
+        "Convert From": "转换自",
+        "Convert To": "转换到",
+        "Amount": "量",
+        "Convert": "转换",
+        "Please input a value >0": "请输入一个大于0的值",
+        "is equal to": "等于",
+        "(s).": ""
+
+    },
+
+    "Comments":{
+        "Finish": "完成",
+        "Edit": "编辑",
+        "No comments yet!": "还没有评论！",
+        "comment_exceed_500": "评论不能超过500个字符。",
+        "Add a comment...": "添加评论..."
+    },
+    "RecipeForm":{
+        "Edit Recipe": "编辑食谱",
+        "name-error": "请添加食谱名称。",
+        "Edit Recipe Name": "编辑食谱名称",
+        "name-placeholder": "例如：妈妈的巧克力蛋糕",
+        "description-error": "请添加食谱描述。",
+        "Edit Description": "编辑描述",
+        "description-placeholder": "例如：这是我妈妈的招牌巧克力蛋糕食谱。",
+        "ingredients-error": "请添加至少一个成分。",
+        "Edit Ingredients": "编辑材料",
+        "ingredients-commas": "请用逗号分隔所有材料",
+        "ingredients-placeholder": "例如：2杯面粉, 1杯糖, 1杯可可粉...",
+        "steps-error": "请添加至少一个做法步。",
+        "Edit Preparation Steps": "编辑做法",
+        "steps-commas": "请用逗号分隔所有做法步骤",
+        "steps-placeholder": "例如：预热烤箱至350°F, 混合面粉和糖...",
+        "Edit Tags": "编辑标记",
+        "tags-commas": "请用逗号分隔所有标签",
+        "tags-placeholder": "例如：巧克力，蛋糕，。。。",
+        "Edit Post Privacy": "编辑食谱隐私",
+        "Public": "公开",
+        "Private": "私人",
+        "cuisine-error": "请选择至少一种美食。",
+        "edit-cuisine": "编辑美食类别",
+        "diet-error": "请选择至少一种饮食。",
+        "edit-diet": "编辑饮食偏好",
+        "Other": "其他",
+        "Edit Image": "编辑图片",
+        "image-error": "请上传食谱图片。",
+        "image-size-error": "图像大小不能超过3 MB。",
+        "small-image-error": "请选择至少为",
+        "pixels": "像素的图像。",
+        "Save Changes": "保存更改",
+        "Recipe Name": "食谱名称",
+        "Description": "描述",
+        "Unit Conversions"  : "单位转换",
+        "Ingredients": "材料",
+        "Preparation Steps": "做法",
+        "Add Tags": "添加标记",
+        "Post Privacy": "食谱隐私",
+        "Post a Recipe": "发布食谱",
+        "Choose Cuisine Categories": "选择美食类别",
+        "Choose Dietary Categories": "选择饮食类别",
+        "Upload an Image": "上传图片",
+        "Post Recipe": "发布食谱",
+        "Uploaded image preview": "上传的图像预览",
+        "Your recipe has been posted!": "您的食谱已发布！",
+        "You will be redirected to your": "您将很快被重定向",
+        "posted recipes page shortly.": "到您发布的食谱页面。"
+    },
+
+    "RecipePages":{
+        "default_name": "默认名称",
+        "no_recipes_yet": "还没有食谱！",
+        "delete_post_button_confirm": "删除帖子按钮确认",
+        "delete_recipes": "删除食谱",
+        "finish": "完成",
+        "delete_post": "删除食谱",
+        "my_recipes": "我的食谱",
+        "my_cookbooks": "我的烹饪书",
+        "private_post": "私人食谱",
+        "Following Recipes": "已关注食谱",
+        "Following Cookbooks": "已关注烹饪书",
+        "search-placeholder": "搜索烹食谱。。。",
+        "Likes": " 点赞",
+        "Like": " 点赞",
+        "Hide Post": "隐藏帖子",
+        "Load More": "加载更多",
+        "Post a Recipe" : "发布食谱",
+        "No recipes found.": "找不到食谱。",
+        "Popular": "受喜爱的",
+        "Newest": "最新的",
+        "No Description.": "无说明。",
+        "DefaultName": "默认名称",
+        "View Your Favorite Recipes": "查看您最喜欢的食谱",
+        "For You": "推荐",
+        "Home": "主页",
+        "Cookbooks": "烹饪书",
+        "settings": "设置",
+        "hidden_posts": "隐藏的帖子",
+        "unhide": "取消隐藏"
+    }
+}

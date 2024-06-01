@@ -1,0 +1,331 @@
+.navBarRegistrationPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-start;
+    padding-top: 10vh;
+    background-color: transparent;
+}
+
+.siteLogo {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.registration-logo {
+    max-width: 100px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.registration-box {
+    padding: 20px;
+    border-radius: 10px;
+    background: #CD6C4B;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.have-an-account{
+    font-size: 1rem;
+}
+
+.registration{
+    margin: 1rem;
+}
+
+.create-heading{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.single_recipe_container {
+    position: relative;
+}
+
+.hide_post_button {
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+    padding: 2px 7px;
+    background-color: #CF6E4F;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hide_post_button:hover {
+    background-color: #A65035;
+}
+
+@media (max-width: 1200px) {
+    .hide_post_button {
+        bottom: 8px;
+        right: 150px;
+        font-size: 12px;
+        padding: 2px 7px;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 650px) {
+    .hide_post_button {
+        bottom: 8px;
+        right: 150px;
+        font-size: 14px;
+        padding: 2px 7px;
+    }
+}
+
+.private_post_icon {
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.sorting-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.sorting-controls .dropdown-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    background: none;
+    color: #333;
+    margin-top: -0.8cm;
+    margin-left: -0.5cm;
+}
+.sorting-controls .dropdown-menu {
+    position: absolute;
+    top: calc(100% - 10px);
+    left: 50%;
+    transform: translateX(-50%) translateY(-10px);;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 10;
+    width: 15vw;
+    display: block;
+    overflow: hidden;
+    padding-right: 15px;
+}
+
+.sorting-controls .dropdown-menu button {
+    display: block;
+    width: calc(100% + 15px);
+    padding: 8px 5px;
+    text-align: center;
+    border: none;
+    background: none;
+    color: black;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+.sorting-controls button.active,
+.sorting-controls button:hover {
+    background-color: #87CEFA;
+    color: black;
+}
+
+.sorting-controls-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.sorting-controls-2 .dropdown-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 22px;
+    border: none;
+    background: none;
+    color: #333;
+}
+
+.sorting-controls-2 .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 10;
+    width: 150px;
+    display: block;
+    overflow: hidden;
+}
+
+.sorting-controls-2 .dropdown-menu button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    border: none;
+    background: none;
+    color: black;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+.sorting-controls-2 .dropdown-menu button:hover,
+.sorting-controls-2 .dropdown-menu button.active {
+    background-color: #87CEFA;
+    color: black;
+    border-radius: 0;
+}
+
+.sorting-controls-fyp {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.sorting-controls-fyp .dropdown-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    background: none;
+    color: #333;
+    height: fit-content;
+}
+
+.sorting-controls-fyp .dropdown-menu {
+    margin-top: 30px;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 10;
+    width: fit-content;
+    display: block;
+    overflow: hidden;
+    padding-right: 10px;
+}
+
+.sorting-controls-fyp .dropdown-menu button {
+    display: block;
+    width: calc(100% + 10px);
+    padding: 8px;
+    text-align: center;
+    border: none;
+    background: none;
+    color: black;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+.sorting-controls-fyp button.active,
+.sorting-controls-fyp button:hover {
+    background-color: #87CEFA;
+    color: black;
+}
+
+.sorting-controls-ing {
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.sorting-controls-ing .dropdown-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    background: none;
+    color: #333;
+}
+.sorting-controls-ing .dropdown-menu {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 10;
+    width: 15vw;
+    display: block;
+    overflow: hidden;
+    padding-right: 15px;
+}
+
+.sorting-controls-ing .dropdown-menu button {
+    display: block;
+    width: calc(100% + 15px);
+    padding: 8px;
+    text-align: center;
+    border: none;
+    background: none;
+    color: black;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+.sorting-controls-ing button.active,
+.sorting-controls-ing button:hover {
+    background-color: #87CEFA;
+    color: black;
+}
+
+@media (max-width: 297px) and (min-width: 280px), (max-height: 656px) and (min-height: 656px) {
+    .sorting-controls-ing .dropdown-button {
+        position: fixed;
+        bottom: 30%;
+        left: 25%;
+        transform: translateX(-50%);
+    }
+    .sorting-controls-ing .dropdown-menu{
+        position: absolute;
+        top: 95%;
+        transform: translateX(-50%);
+    }
+}
+
+
+
+
+

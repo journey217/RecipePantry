@@ -1,0 +1,57 @@
+.container_choose_cuisine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cuisine-heading_choose, .cuisine-text_choose {
+    text-align: center; /* Center the text horizontally */
+
+}
+.cuisine-grid_choose {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.cuisine-item_choose {
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    min-width: 120px; /* Optional: sets a minimum width for each item */
+    margin: 10px; /* Add some space between each item */
+    flex-direction: column;
+    align-items: center;
+    background-color: #C8C8C8; /* Light gray background */
+    padding: 15px; /* Adds space around the image and text within each item */
+    border-radius: 10px; /* Rounded corners for the whole item, including background */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow for depth */
+    transition: transform 0.2s; /* Optional: adds a subtle animation on hover */
+}
+
+.selected_choose_cuisine {
+    border: 2px solid black;
+    background-color: #eaa861;
+    padding: 13px; /* Adjust padding to ensure the border appears centered */
+}
+
+.cuisine-image_choose {
+    width: 100px;
+    height: 75px;
+    border-radius: 10px; /* Rounded corners for the image */
+    object-fit: cover; /* Ensures the image covers the area, might crop it */
+}
+
+
+.cuisine-name_choose {
+    margin-top: 5px; /* Add some space between the image and the text */
+}
+
+
+
+
+
+

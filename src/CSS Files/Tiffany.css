@@ -1,0 +1,455 @@
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+
+.split-page{
+    padding: 0 2rem 2rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.user-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+    background-color: #eaa861;
+    margin: 0 2rem;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.profile-pic{
+    border: 1px solid papayawhip;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.cuisine-display, .preference-display{
+    font-size: 1.5rem;
+    text-wrap: wrap;
+}
+.full-name{
+    font-size: 3rem; /* This makes it 4x the size of the root element */
+    margin: 0;
+}
+
+.username{
+    color: black;
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
+.bio{
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.profile-followers{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.profile-follow-button{
+    margin-inline: 3rem;
+    text-decoration: none;
+}
+
+.profile-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.buttons-box{
+    margin: 0rem 2rem;
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-buttons{
+    margin: 2rem;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+    font-size: 3rem;
+    background-color: #87cefa;
+    border: 1px solid black;
+}
+
+.profile-buttons:hover{
+    background-color: #ceebfd;
+    border: 1px solid black;
+}
+
+
+/* profile form */
+
+.profileform{
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 20px;
+    min-width: 240px;
+    max-width: 80vw;
+}
+
+/* profile form pfp */
+
+.profile-pic{
+    justify-self: center;
+    height: 10rem;
+    width: 10rem;
+}
+
+.change-profile-pic{
+    position: relative;
+    margin:0;
+    width: 10rem;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .3 ease;
+
+}
+
+.change-profile-pic:hover .overlay{
+    opacity: 1;
+}
+
+.change-profile-pic:hover .profile-pic{
+    opacity: .5;
+}
+.change-profile-pic:hover{
+    cursor:pointer;
+}
+
+.icon{
+    position:absolute;
+    top: 40%;
+    left: 40%;
+    height: 2rem;
+    width: auto;
+}
+
+.change-profile-pic #choosepfp{
+    position: absolute;
+    height: 9.5rem;
+    width: 9.5rem;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 50%;
+}
+.change-profile-pic #choosepfp:hover{
+    cursor: pointer;
+}
+
+
+/* profile form input boxes */
+
+.input-and-label{
+    display: block;
+    margin-bottom: .5rem;
+    
+}
+.profileform .edit-profile-label{
+    display: block;
+    font-size: 1rem;
+    margin: 0 .25rem;
+}
+.profileform .edit-profile-input, .bio-input{
+    padding-left: .5rem;
+    font: inherit;
+    height: 2rem;
+    width: 15rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 0%, 0);
+    margin: .25rem 0;
+    background-color: papayawhip;
+}
+
+.profileform .bio-input{
+    padding: .5rem;
+    height: 10rem;
+    font-size: 1rem;
+    
+}
+
+.profileform .edit-profile-input:hover, .bio-input:hover{
+    background-color: white;
+}
+
+.profileform .edit-profile-input:focus, .bio-input:focus{
+    background-color: white;
+    outline: 1px solid black;
+}
+
+/* deleting account stuff */
+.delete-account-modal {
+    font-size: 100%;
+    padding: 1rem;
+    text-align: center;
+    height: fit-content;
+    z-index: 1;
+    background: papayawhip;
+    border-width: 1px;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .deleteform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ .delete-account-input{ 
+    padding-left: .5rem;
+    font: inherit;
+    height: 2rem;
+    width: 15rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 0%, 0);
+    margin: .25rem 0;
+    background-color: white;
+}
+
+ .delete-account-input:hover{
+    outline: 1px solid black;
+}
+
+ .delete-account-input:focus{
+    background-color: white;
+    outline: 1px solid black;
+}
+
+.delete-account-button{
+    width: fit-content;
+    height: auto;
+    margin-top: 1rem;
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+}
+
+.delete-account-button:hover{
+    width: fit-content;
+    height: auto;
+    padding: .5rem;
+    background-color: hwb(0 35% 0%);
+    cursor: pointer;
+}
+
+/* .profileform  */.submit{
+    width: fit-content;
+    height: auto;
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    background-color: #87cefa;
+}
+
+/* .profileform */ .submit:hover{
+    width: fit-content;
+    height: auto;
+    padding: .5rem;
+    background-color: #ceebfd;
+    cursor: pointer;
+}
+
+.delete-account{
+    margin-top: .5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.803);
+}
+
+.delete-account:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.forgot{
+    margin: 0;
+    text-align: right;
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.661);
+}
+
+/* navbar button */  
+.cuisine-dropdown{
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
+    margin-right: 2rem;
+    padding-top: 5px;
+    float: right;
+    position: relative;
+    border:none
+    /*width: 38%;*/
+  }
+  
+  .cuisine-dropdown:hover .dropdown-content{
+    display: block;
+  }
+
+.nav-button, .nav-button:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.search-input {
+    padding-left: .5rem;
+    font: inherit;
+    height: 2rem;
+    width: 70vw;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 0%, 0);
+    margin: .25rem 0;
+    background-color: white;
+}
+
+.search-input:hover {
+    outline: 1px solid black;
+}
+
+.search-input:focus {
+    background-color: white;
+}
+
+.search-icon{
+    height: 2rem;
+    width: auto;
+    margin-top: .3rem;
+    margin-left: -2.5rem;
+}
+
+.ingredient-and-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add_to_shopping_list_button{
+    padding: .2rem .3rem;
+    margin-right: 15px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    background-color: #87cefa;
+}
+
+.add_to_shopping_list_button:hover{
+    cursor: pointer;
+    background-color: #ceebfd;
+}
+
+.added_button{
+    padding: .1rem .2rem;
+    margin-right: 1rem;
+    border-radius: 20px;
+    outline: 1px solid black;
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    background-color: #67e05c;
+    color: black;
+}
+
+.not_added_button{
+    padding: .1rem .2rem;
+    margin-right: 1rem;
+    border-radius: 20px;
+    outline: 1px solid black;
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    /*background-color: red;
+    color: black;*/
+    background-color: #da0000;
+    color: white;
+}
+
+.print-area {
+    /* No display: none here; keep it normally visible or hidden based on your application's need */
+    position: absolute; /* Position it out of the normal flow if always on the page */
+    left: 200%;
+    top: 200%;
+    width: 100%;
+}
+
+@media print {
+    .my_recipes, .navBars, .footer {
+        display: none; /* Using display:none instead of visibility:hidden */
+    }
+
+    .print-area, .print-area * {
+        display: block; /* Ensuring all contents of print-area are displayed */
+        visibility: visible;
+    }
+
+    .print-area {
+        position: absolute; /* Position static for printing */
+        left: 0;
+        top: 0;
+    }
+}
+
+.sg-recipe-button{
+    background-color: #CF6E4F;
+    border-width: thin;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition: background-color 0.3s ease;
+}
+
+.sg-recipe-button:hover{
+    background-color: #555;
+    color: white;
+}
+
+.small{
+    font-size: 1rem;
+}

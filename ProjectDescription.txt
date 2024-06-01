@@ -1,0 +1,37 @@
+﻿Team Name: UI Maxxing
+
+
+Github Repo URL: https://github.com/CSE370HCI/uimax/tree/master
+
+
+Trello Board URL: https://trello.com/b/eORUGYsj/uimaxxing-project-board
+
+
+Alternate Dispute Resolution Approach:
+
+
+        If there is a dispute between team members, it will be resolved with rock paper scissors. 
+
+
+Estimated Completed Version Summary: (1-2 Paragraphs):
+
+
+        Our website will be a recipe-sharing social media platform.Users will be able to make text+image posts
+        of original recipes as well as view other users'. They will also be able to add any recipe on the site to
+        cookbooks that users can create. Recipes will have measurement conversions for tablespoon, teaspoon, and cups
+        for convenience, as well. In addition, users will be able to follow other users to keep track of content posted
+        by other specific users. Users will be able to comment on any recipe, as well as like any recipe they like. Users
+        will also be able to hide recipe content they find objectionable or just don't like. Users will also be able
+        to bookmark any cookbook they like created by any user. On the main page of the website, there will be a discover
+        page for all the recipes on the app as well as a "For You" page for viewing recipes based on the user's inputted
+        food preferences. The app will also have a search functionality for users to search recipes or cookbooks by name or tag.
+        There will also be an ingredient search feature for users to be able to find recipes based on the ingredients they
+        contain. Speaking of ingredients, there will also be a shopping list feature where users can compile a list of
+        ingredients that they want to keep track of to purchase when they go to a grocery store. Ingredients will be able to be
+        added directly from the recipe page for convenience as well as manually from the shopping list page.
+
+
+Typical User and Functionality Summary: (1-2 Paragraphs):
+
+
+        The typical user of our website would be someone in their 20s-30s who uses and is familiar with other social media platforms, such as Instagram or X. This is because the posting mechanism on our platform would be similar to these sites, along with a similar interactive nature of liking and commenting on these posts. Their familiarity with these similar platforms will minimize the learning curve while using our site, leading to an expected user base of people in this demographic.

@@ -1,0 +1,713 @@
+{
+    "AccountRecovery":{
+        "LoginRecovery":{
+            "enter_email_error": "Please enter your email.",
+            "process_init_fail": "Failed to initiate recovery process. Please check the email provided and try again.",
+            "logo_alt": "Logo",
+            "login_recovery": "Login Recovery",
+            "account_email": "Account Email",
+            "submit": "Submit",
+            "back_to_login": "Back to Login"
+        },
+        
+        "ResetPassword":{
+            "pw_match_error": "New passwords do not match.",
+            "pw_charlen_error": "Password must be at least 8 characters long.",
+            "pw_success_redirect": "Password reset successfully! Redirecting..",
+            "pw_reset_fail": "Failed to reset password.",
+            "logo": "Logo",
+            "reset_password": "Reset Password",
+            "code": "Code",
+            "new_password": "New Password",
+            "confirm_new_password": "Confirm New Password",
+            "back_to_login": "Back to Login"
+        }
+    },
+
+    "CookbookPages":{
+        "AddToCookbookJourney":{
+            "default_name": "DefaultName",
+            "add_success": "This recipe has been successfully added to your cookbook!",
+            "disappear_shortly": "This message will disappear shortly.",
+            "select_cookbook": "Select a Cookbook:",
+            "choose_here": "Choose here",
+            "add_to_cookbook": "Add Recipe to Cookbook",
+            "no_cookbooks_error": "You have no cookbooks! You must create one first.",
+            "already_added_error": "This recipe is already a member of this cookbook. Please select a different cookbook or try a different recipe.",
+            "select_cookbook_error": "Please select a cookbook."
+        },
+
+        "CookbooksJourney":{
+            "default_name": "DefaultName",
+            "no_desc": "No Description.",
+            "popular": "Popular",
+            "newest": "Newest",
+            "for_you": "For You",
+            "home": "Home",
+            "cookbooks": "Cookbooks",
+            "search_cookbook_placeholder": "Search for a cookbook...",
+            "search_alt": "Search",
+            "bookmarks": " Bookmarks",
+            "bookmark": " Bookmark",
+            "by1": "By: ",
+            "by2": "",
+            "load_more": "Load More",
+            "create_cookbook": "Create a Cookbook"
+        },
+        
+        "CreateCookbookJourney":{
+            "cookbook_created": "Your Cookbook has been created",
+            "redirect_notice1": "You will be redirected to your ",
+            "redirect_notice2": "created cookbooks page shortly.",
+            "create_cookbook": "Create a Cookbook",
+            "cbn_error": "Please add a cookbook name.",
+            "cookbook_name": "Cookbook Name: ",
+            "cbn_placeholder": "ex. Breakfast Bliss",
+            "cbdesc_error": "Please add a description for your cookbook.",
+            "cb_desc": "Cookbook Description: ",
+            "cb_desc_placeholder": "ex. From hearty classics like fluffy pancakes and crispy bacon to inventive twists on avocado toast...",
+            "add_tags": "Add Tags:",
+            "separate_tags_by_commas": "Please separate all tags by commas",
+            "tags_placeholder": "ex. breakfast, bacon, frenchtoast....",
+            "dims_error1": "Please choose an image that is at least ",
+            "dims_error2": " x ",
+            "dims_error3": " pixels",
+            "image_upload_error": "Please upload a cover image.",
+            "image_size_error": "Image size cannot exceed 3 MB.",
+            "upload_cover_image": "Upload a Cover Image:",
+            "image_size_instruct": "Image size must not exceed 3 MB",
+            "create_cookbook_btn": "Create Cookbook",
+            "Uploaded image preview": "Uploaded image preview"
+        },
+
+        "DisplayCookbookJourney":{
+            "unnamed": "Unnamed",
+            "no_desc": "No Description.",
+            "remove_recipe_success": "This recipe has been successfully removed from your cookbook!",
+            "disappear_shortly": "This message will disappear shortly.",
+            "remove_from_cookbook": "Remove from Cookbook",
+            "saved_to_bookmarks": "This cookbook has been saved to Bookmarks.",
+            "already_saved": "This cookbook has already been saved to Bookmarks.",
+            "delete_post_alt": "Delete Post",
+            "cancel": "Cancel",
+            "delete_cookbook": "Delete Cookbook",
+            "back": "Back",
+            "edit_cookbook": "Edit Cookbook",
+            "bookmark": "Bookmark",
+            "bookmarks_undertext": " Bookmarks",
+            "bookmark_undertext": " Bookmark"
+        },
+
+        "EditCookbookJourney":{
+            "cookbook_created": "Your Cookbook has been created",
+            "redirect_notice1": "You will be redirected to your ",
+            "redirect_notice2": "created cookbooks page shortly.",
+            "edit_cookbook": "Edit Cookbook",
+            "cbn_error": "Please add a cookbook name.",
+            "edit_cookbook_name": "Edit Cookbook Name:",
+            "cbn_placeholder": "ex. Breakfast Bliss",
+            "cbdesc_error": "Please add a description for your cookbook.",
+            "edit_cb_desc": "Edit Cookbook Description: ",
+            "cb_desc_placeholder": "ex. From hearty classics like fluffy pancakes and crispy bacon to inventive twists on avocado toast...",
+            "edit_tags": "Edit Tags:",
+            "separate_tags_by_commas": "Please separate all tags by commas",
+            "tags_placeholder": "ex. breakfast, bacon, frenchtoast....",
+            "dims_error1": "Please choose an image that is at least ",
+            "dims_error2": " x ",
+            "dims_error3": " pixels",
+            "image_upload_error": "Please upload a cover image.",
+            "image_size_error": "Image size cannot exceed 3 MB.",
+            "edit_cover_image": " Edit Cover Image: ",
+            "image_size_instruct": "Image size must not exceed 3 MB",
+            "save_changes": "Save Changes"
+        },
+
+        "FollowingCookbooksJourney":{
+            "default_name": "DefaultName",
+            "no_desc": "No Description.",
+            "following_recipes": "Following Recipes",
+            "following_cookbooks": "Following Cookbooks",
+            "search_for_cookbook": "Search for a cookbook...",
+            "search_alt": "Search",
+            "no_cookbooks_found":"No cookbooks found.",
+            "bookmarks": " Bookmarks",
+            "bookmark": " Bookmark",
+            "by1": "By: ",
+            "by2": "",
+            "load_more": "Load More",
+            "create_cookbook": "Create a Cookbook",
+            "popular": "Popular",
+            "newest": "Newest"
+        },
+
+        "MyCookbooksJourney":{
+            "default_name": "DefaultName",
+            "delete_post_alt": "Delete Post",
+            "finish": "Finish",
+            "delete_cookbooks": "Delete Cookbooks",
+            "popular": "Popular",
+            "newest": "Newest",
+            "popular_cookbooks": "Popular Cookbooks",
+            "newest_cookbooks": "Newest Cookbooks",
+            "my_recipes": "My Recipes",
+            "my_cookbooks": "My Cookbooks",
+            "likes": "Likes: ",
+            "create_cookbook": "Create a Cookbook",
+            "no_cookbooks_yet": "No cookbooks yet.",
+            "bookmarks": " Bookmarks",
+            "bookmark": " Bookmark",
+            "delete_post_button_confirm": "Delete Post Button Confirm"
+        },
+
+        "SavedCookbooksJourney":{
+            "default_name": "DefaultName",
+            "delete_post_alt": "Delete Post",
+            "finish": "Finish",
+            "remove_cookbooks": "Remove Cookbooks",
+            "popular": "Popular",
+            "newest": "Newest",
+            "no_cookbooks_found": "No cookbooks found.",
+            "no_recipes_found": "No recipes found.",
+            "popular_cookbooks": "Popular Cookbooks",
+            "newest_cookbooks": "Newest Cookbooks",
+            "bookmarks": "Bookmarks",
+            "liked_posts": "Liked Posts",
+            "likes": "Likes: ",
+            "create_cookbook": "Create a Cookbook",
+            "bookmarks_undertext": " Bookmarks",
+            "bookmark_undertext": " Bookmark"
+        },
+
+        "SearchCookbooksJourney":{
+            "search_results_for": "Search results for \"",
+            "end_double_quote": "\"",
+            "default_name": "DefaultName",
+            "no_desc": "No Description.",
+            "ingredients": "Ingredients",
+            "recipes": "Recipes",
+            "cookbooks": "Cookbooks",
+            "search_for_cookbook": "Search for a cookbook...",
+            "search_alt": "Search",
+            "no_cookbooks_found": "No cookbooks found.",
+            "bookmarks": " Bookmarks",
+            "bookmark": " Bookmark",
+            "by1": "By: ",
+            "by2": "",
+            "load_more": "Load More",
+            "create_cookbook": "Create a Cookbook",
+            "popular": "Popular",
+            "newest": "Newest"
+        },
+
+        "UserCookbooksJourney":{
+            "default_name": "DefaultName",
+            "popular": "Popular",
+            "newest": "Newest",
+            "user_cookbooks": "'s Cookbooks",
+            "likes": "Likes: ",
+            "create_cookbook": "Create a Cookbook",
+            "no_cookbooks_yet": "No cookbooks yet.",
+            "bookmarks": " Bookmarks",
+            "bookmark": " Bookmark"
+        }
+    },
+
+    "Cuisines":{
+        "Cuisines":{
+            "search_results_for": "Search results for \"",
+            "end_double_quote": "\"",
+            "default_name": "DefaultName",
+            "no_desc": "No Description.",
+            "ingredients": "Ingredients",
+            "recipes": "Recipes",
+            "cookbooks": "Cookbooks",
+            "search_for_cuisine": "Search for a cuisine...",
+            "search": "Search",
+            "no_recipes_found": "No recipes found.",
+            "hide_post": "Hide Post",
+            "likes": " Likes",
+            "like": " Like",
+            "load_more": "Load More",
+            "post_recipe": "Post a Recipe",
+            "popular": "Popular",
+            "newest": "Newest"
+        },
+
+        "SearchByIngredientsJourney":{
+            "default_name": "DefaultName",
+            "no_desc": "No Description.",
+            "ingredients": "Ingredients",
+            "recipes": "Recipes",
+            "cookbooks": "Cookbooks",
+            "ingredient_num_error": "Enter at least ONE ingredient.",
+            "search_title": "Search up to 5 ingredients.",
+            "ingredient_placeholder1": "ex. Tomato",
+            "ingredient_placeholder2": "ex. Bacon",
+            "ingredient_placeholder3": "ex. Lettuce",
+            "ingredient_placeholder4": "ex. Bread", 
+            "ingredient_placeholder5": "ex. Cheese",
+            "search": "Search",
+            "no_recipes_found":"No recipes found.",
+            "likes": " Likes",
+            "like": " Like",
+            "hide_post": "Hide Post",
+            "load_more": "Load More",
+            "post_recipe":"Post a Recipe",
+            "popular": "Popular",
+            "newest": "Newest"
+        }
+    },
+
+    "FriendsPages":{
+        "FollowButtonJourney":{
+            "following": "Following",
+            "follow": "Follow"
+        },
+
+        "FollowersJessica":{
+            "error": "Error: ",
+            "loading": "Loading...",
+            "followers": "Followers",
+            "no_followers": "Nothing to see here! You have 0 followers."
+        },
+
+        "FollowersJourney":{
+            "error": "Error: ",
+            "loading": "Loading...",
+            "followers": "'s Followers",
+            "no_followers1": "Nothing to see here! ",
+            "no_followers2": " has 0 followers."
+        },
+
+        "FollowingJessica":{
+            "error": "Error: ",
+            "loading": "Loading...",
+            "following": "Following",
+            "no_following": "Nothing to see here! See your following here once you follow someone."
+        },
+
+        "FollowingJourney":{
+            "error": "Error: ",
+            "loading": "Loading...",
+            "following": "'s Following",
+            "no_following1": "Nothing to see here! ",
+            "no_following2": " isn't following anyone yet."
+        },
+
+        "FollowToggleJessica":{
+            "follow": "Follow",
+            "following": "Following"
+        }
+    },
+
+    "LoginPages":{
+        "EmailCheckPlaceholder":{
+            "fields_empty": "You've left 1 or more fields empty.",
+            "try_again": "Try again"
+        },
+    
+        "LoggedInPlaceHolder":{
+            "functionality_not_implemented": "Login functionality not yet implemented.",
+            "go_back": "Go back"
+        },
+    
+        "LoginForm":{
+            "enter_email": "Please enter your email.",
+            "enter_password": "Please enter your password.",
+            "invalid_credentials": "You've entered invalid login credentials.",
+            "log_in": "Log in",
+            "phone_screenshots_alt": "Recipe Pantry Phone Screenshots",
+            "logo_alt": "Logo",
+            "email": "Email",
+            "email_address": "Email Address",
+            "password": "Password",
+            "forgot_password": "Forgot password?",
+            "don't_have_account": "Don't have an account? ",
+            "create_account_here": "Create one here"
+        }
+    },
+
+    "ProfilePages":{
+
+        "ConfirmDelete":{
+            "enter_password_error": "Please enter your password.",
+            "wrong_password_error": "Wrong password. Please try again.",
+            "account_deleted": "Your account has been deleted.",
+            "redirect1": "You will be redirected to the ",
+            "redirect2": " homepage shortly.",
+            "enter_password": "Please enter your password to delete your account.",
+            "delete_account_warning": "Warning: This action cannot be undone.",
+            "delete_account": "Delete Account",
+            "cancel": "Cancel"
+        },
+
+        "EditCuisinesJourney":{
+            "italian": "Italian",
+            "japanese": "Japanese",
+            "chinese": "Chinese",
+            "greek": "Greek",
+            "brazilian": "Brazilian",
+            "indonesian": "Indonesian",
+            "american": "American",
+            "mexican": "Mexican",
+            "spanish": "Spanish",
+            "french": "French",
+            "indian": "Indian",
+            "korean": "Korean",
+            "loading": "Loading...",
+            "edit_cuisine_preferences": "Edit Cuisine Preferences",
+            "choose_cuisine_error": "You must choose at least 1 cuisine.",
+            "click_cuisines": "Click at least 1 of your favorite cuisines!",
+            "save": "Save"
+        },
+
+        "EditDietaryJourney":{
+            "vegan": "Vegan",
+            "meat": "Meat",
+            "glutenfree": "Gluten Free",
+            "nopork": "No Pork",
+            "dairy": "Dairy",
+            "eggs": "Eggs",
+            "seafood": "Seafood",
+            "allergenfree": "Allergen Free",
+            "nutfree": "Nut Free",
+            "loading": "Loading...",
+            "edit_dietary_preferences": "Edit Dietary Preferences",
+            "click_preferences": "Click your preferences!",
+            "save": "Save"
+        },
+
+        "EditProfile":{
+            "pfp_error": "Please submit a photo with no spaces in the file name.",
+            "display_name_error": "Please enter a display name.",
+            "display_name_length_error": "Display name must be less than 18 characters.",
+            "username_error": "Please enter a username.",
+            "username_length_error": "Username must be less than 18 characters.",
+            "bio_error": "Bio is too long.",
+            "user": "User",
+            "display_name": "Display Name",
+            "username": "Username",
+            "bio": "Bio",
+            "save": "Save",
+            "delete_account": "Delete Account"
+        },
+
+        "Settings":{
+            "settings": "Settings",
+            "hidden_posts": "Hidden Posts"
+        },
+
+        "ShowProfileJessica":{
+            "na": "N/A",
+            "user": "User",
+            "no_cuisine_pref": "No Cuisine Preferences.",
+            "no_dietary_pref": "No Dietary Preferences.",
+            "cuisine_pref": "Cuisine Preferences",
+            "dietary_pref": "Dietary Preferences",
+            "recipes": "Recipes",
+            "cookbooks": "Cookbooks",
+            "italian": "Italian",
+            "japanese": "Japanese",
+            "chinese": "Chinese",
+            "greek": "Greek",
+            "brazilian": "Brazilian",
+            "indonesian": "Indonesian",
+            "american": "American",
+            "mexican": "Mexican",
+            "spanish": "Spanish",
+            "french": "French",
+            "indian": "Indian",
+            "korean": "Korean",
+            "vegan": "Vegan",
+            "meat": "Meat",
+            "glutenfree": "Gluten Free",
+            "nopork": "No Pork",
+            "dairy": "Dairy",
+            "eggs": "Eggs",
+            "seafood": "Seafood",
+            "allergenfree": "Allergen Free",
+            "nutfree": "Nut Free"
+        },
+
+        "UserCardJessica":{
+            "profile_pic": "profile pic",
+            "user": "User",
+            "na": "N/A",
+            "no_bio_set": "No bio set",
+            "followers": "Followers",
+            "following": "Following"
+        }
+
+    },
+
+    "RegistrationPages":{
+        "RegisterForm":{
+            "pw_charlen_error": "Password must be at least 8 characters long.",
+            "pw_match_error": "Passwords do not match.",
+            "email_already_registered": "This email is already registered to an account.",
+            "create_account": "Create an account",
+            "email": "Email",
+            "password": "Password (8 character minimum)",
+            "confirm_password": "Confirm Password",
+            "register": "Register",
+            "already_have_account": "Already have an account? ",
+            "login_here": "Login here"
+        },
+
+        "RegistrationChooseCuisines":{
+            "italian": "Italian",
+            "japanese": "Japanese",
+            "chinese": "Chinese",
+            "greek": "Greek",
+            "brazilian": "Brazilian",
+            "indonesian": "Indonesian",
+            "american": "American",
+            "mexican": "Mexican",
+            "spanish": "Spanish",
+            "french": "French",
+            "indian": "Indian",
+            "korean": "Korean",
+            "back": "Back",
+            "choose_cuisines_title": "3. Choose Cuisines",
+            "choose_cuisines_num_error": "You must choose at least 1 cuisine.",
+            "choose_cuisines_text": "Click at least 1 of your favorite cuisines!",
+            "continue": "Continue"
+        },
+
+        "RegistrationChoosePreferences":{
+            "vegan": "Vegan",
+            "meat": "Meat",
+            "glutenfree": "Gluten Free",
+            "nopork": "No Pork",
+            "dairy": "Dairy",
+            "eggs": "Eggs",
+            "seafood": "Seafood",
+            "allergenfree": "Allergen Free",
+            "nutfree": "Nut Free",
+            "back": "Back",
+            "choose_pref_title": "4. Choose Preferences",
+            "choose_pref_text": "Click your preferences!",
+            "continue": "Continue"
+        },
+
+        "RegistrationCreateProfile":{
+            "update_fail": "Failed to update profile",
+            "fill_in_error": "Fill in required fields.",
+            "username_taken": "Username is already taken.",
+            "special_char_error": "Display name and username must not contain special characters.",
+            "create_profile_title": "2. Create Profile",
+            "display_name": "Display Name",
+            "username": "Username",
+            "continue": "Continue"
+        },
+
+        "RegistrationUploadPicture":{
+            "site_icon_alt": "Site Logo",
+            "upload_pfp_title": "1. Upload a Profile Picture",
+            "upload_pfp_text1": "Please click '+' to upload a .jpeg file, then press 'Continue'.",
+            "upload_pfp_text2": "Or simply press 'Continue' to skip.",
+            "profile_alt": "Profile",
+            "continue": "Continue"
+        }
+    },
+
+    "FooterJourney":{
+        "resources": "Resources",
+        "dev_pages": "Dev Bio Pages",
+        "style_guide": "Style Guide"
+    },
+
+    "Navbar":{
+        "user": "User",
+        "profile": "Profile",
+        "my_posts": "My Posts",
+        "following_posts": "Following",
+        "liked_posts": "Liked Posts",
+        "bookmarks": "Bookmarks",
+        "shopping_list": "Shopping List",
+        "settings": "Settings",
+        "logout": "Logout",
+        "cuisines": "Cuisines",
+        "italian": "Italian",
+        "mexican": "Mexican",
+        "american": "American",
+        "search_cuisines": "Search Cuisines"
+    },
+
+    "ShoppingListJourney":{
+        "delete_ingredient": "Delete Ingredient",
+        "no_negative_error1": "You can't have 'negative ",
+        "no_negative_error2": "'.",
+        "more": "More?",
+        "less": "Less?",
+        "char_error": "Please enter 20 or less characters.",
+        "no_input_error": "You didn't enter anything...",
+        "shopping_list": "Shopping List",
+        "ingredient_input_placeholder": "Ex: Green onion",
+        "no_ingredients": "No ingredients yet.",
+        "add": "Add"
+    },
+
+    "LandingPageJourney":{
+        "whoops1": "Whoops! It looks like your ",
+        "whoops2": "account attributes are outdated.",
+        "click_to_fix": "Click the button to fix it!",
+        "fix": "Fix",
+        "default_name": "DefaultName",
+        "no_desc": "No Description.",
+        "popular": "Popular",
+        "newest": "Newest",
+        "popular_recipes": "Popular Recipes",
+        "newest_recipes": "Newest Recipes",
+        "for_you": "For You",
+        "home": "Home",
+        "cookbooks": "Cookbooks",
+        "search_for_recipe": "Search for a recipe...",
+        "private": "Private",
+        "hide_post": "Hide Post",
+        "likes": " Likes",
+        "like": " Like",
+        "load_more": "Load More",
+        "post_recipe": "Post a Recipe"
+    },
+
+    "UserBiosJourney":{
+        "dev_pages": "Dev Bio Pages",
+        "journey_profile": "Journey's Profile",
+        "jessica_profile": "Jessica's Profile",
+        "tiffany_profile": "Tiffany's Profile",
+        "sheba_profile": "Sheba's Profile",
+        "andrew_profile": "Andrew's Profile"
+    },
+
+    "DisplayRecipeV2":{
+        "delete_post": "Delete Post",
+        "cancel": "Cancel",
+        "delete_recipe": "Delete Recipe",
+        "likes": " Likes",
+        "like": " Like",
+        "Added": "Added",
+        "Add to Shopping List": "Add to Shopping List",
+        "Ingredients": "Ingredients",
+        "Preparation Steps": "Preparation Steps",
+        "Like Button": "Like Button",
+        "By": "By",
+        "Back": "Back",
+        "Unit Conversions": "Unit Conversions",
+        "Edit Recipe": "Edit Recipe",
+        "Recipe": "Recipe",
+        "Comments": "Comments",
+        "Add to Cookbook": "Add to Cookbook",
+        "hide_post": "Hide Post",
+        "unhide": "Un-hide"
+    },
+
+    "Conversions":{
+        "Teaspoon": "Teaspoon",
+        "Tablespoon": "Tablespoon",
+        "Cup": "Cup",
+        "Invalid units.": "Invalid units.",
+        "Please input a value": "Please input a value",
+        "Convert From": "Convert From",
+        "Convert To": "Convert To",
+        "Amount": "Amount",
+        "Convert": "Convert",
+        "Please input a value >0": "Please input a value>0",
+        "is equal to": "(s) is equal to ",
+        "(s).": "(s)."
+    },
+
+    "Comments":{
+        "Finish": "Finish",
+        "Edit": "Edit",
+        "No comments yet!": "No comments yet!",
+        "comment_exceed_500": "Comment cannot exceed 500 characters",
+        "Add a comment...": "Add a comment..."
+
+        
+    },
+
+    "RecipeForm":{
+        "Edit Recipe": "Edit Recipe",
+        "name-error": "Please enter a recipe name.",
+        "Edit Recipe Name": "Edit Recipe Name",
+        "name-placeholder": "ex. Chocolate Cake",
+        "description-error": "Please add a description for your recipe.",
+        "Edit Description": "Edit Description",
+        "description-placeholder": "ex. Get ready to taste the best chocolate cake ever—my mom's recipe! It's layers of moist chocolate cake with smooth chocolate ganache in between...",
+        "ingredients-error": "Please add at least ONE ingredient.",
+        "Edit Ingredients": "Edit Ingredients",
+        "ingredients-commas": "Please separate all ingredients by commas",
+        "ingredients-placeholder": "ex. 2 eggs, 1 cup of flour, 3 tablespoons of baking soda, 1 cup of milk...",
+        "steps-error": "Please add at least ONE preparation step.",
+        "Edit Preparation Steps": "Edit Preparation Steps",
+        "steps-commas": "Please separate all preparation steps by commas",
+        "steps-placeholder": "ex. Gather all ingredients, Preheat the oven to 350° F, Grease and flour a 9-inch square cake pan...",
+        "Edit Tags": "Edit Tags",
+        "tags-commas": "Please separate all tags by commas",
+        "tags-placeholder": "ex. dessert, chocolate cake, sweets...",
+        "Edit Post Privacy": "Edit Post Privacy",
+        "Public": "Public",
+        "Private": "Private",
+        "cuisine-error": "Please select at least one cuisine!",
+        "edit-cuisine": "Edit Cuisine Catergories",
+        "diet-error": "Please select at least one dietary preference!",
+        "edit-diet": "Edit Dietary Preferences",
+        "Other": "Other",
+        "Edit Image": "Edit Image",
+        "image-error": "Please upload an image.",
+        "image-size-error": "Image size cannot exceed 3 MB.",
+        "small-image-error": "Please choose an image that is at least ",
+        "pixels": " pixels.",
+        "Save Changes": "Save Changes",
+        "Recipe Name": "Recipe Name",
+        "Description": "Description",
+        "Unit Conversions"  : "Unit Conversions",
+        "Ingredients": "Ingredients",
+        "Preparation Steps": "Preparation Steps",
+        "Add Tags": "Add Tags",
+        "Post Privacy": "Post Privacy",
+        "Post a Recipe": "Post a Recipe",
+        "Choose Cuisine Categories": "Choose Cuisine Categories",
+        "Choose Dietary Categories": "Choose Dietary Categories",
+        "Upload an Image": "Upload an Image",
+        "Post Recipe": "Post Recipe",
+        "Uploaded image preview": "Uploaded image preview",
+        "Your recipe has been posted!": "Your recipe has been posted!",
+        "You will be redirected to your": "You will be redirected to your",
+        "posted recipes page shortly.": "posted recipes page shortly."
+    },
+
+    "RecipePages":{
+        "default_name": "DefaultName",
+        "no_recipes_yet": "No Recipes Yet!",
+        "delete_post_button_confirm":"Delete Post Button Confirm",
+        "delete_recipes": "Delete Recipes",
+        "finish": "Finish",
+        "delete_post": "Delete Post",
+        "my_recipes": "My Recipes",
+        "my_cookbooks": "My Cookbooks",
+        "private_post": "Private Post",
+        "Following Recipes": "Following Recipes",
+        "Following Cookbooks": "Following Cookbooks",
+        "search-placeholder": "Search for a recipe...",
+        "Likes": " Likes",
+        "Like": " Like",
+        "Hide Post": "Hide Post",
+        "Load More": "Load More",
+        "Post a Recipe" : "Post a Recipe",
+        "No recipes found.": "No recipes found.",
+        "Popular": "Popular",
+        "Newest": "Newest",
+        "No Description.": "No Description.",
+        "DefaultName": "DefaultName",
+        "View Your Favorite Recipes": "View Your Favorite Recipes",
+        "For You": "For You",
+        "Home": "Home",
+        "Cookbooks": "Cookbooks",
+        "settings": "Settings",
+        "hidden_posts": "Hidden Posts",
+        "unhide": "Unhide"
+    }
+    
+}

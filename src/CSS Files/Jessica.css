@@ -1,0 +1,632 @@
+.friendsh1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.friends-none {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.friends-list {
+  display: block;
+  padding: 0.8rem;
+}
+
+.friends-list ul {
+  padding: 0rem;
+}
+  
+.connection {
+  font-size: 1.3rem;
+  background: white;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: black;
+  border-radius:2.5rem;
+  padding: 1.2rem;
+  margin: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+  display: flex;
+  vertical-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .connection {
+    width: 80%;
+    padding: 1.2rem;
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .friendsh1 {
+    font-size: 2.3rem;
+  }
+
+  .friends-none {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .connection {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem 0 1.2rem 0;
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .connection-right {
+    margin-top: 0.5rem;
+  }
+}
+
+  .friendsh1 {
+    font-size: 2rem;
+  }
+
+  .friends-none {
+    font-size: 1rem;
+  }
+
+
+.user-profile-link:link {
+  text-decoration: none;
+  color: black;
+}
+
+.user-profile-link:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.user-profile-link:hover {
+  text-decoration: underline;
+  color: #FF8E49;
+}
+  
+.connection-right {
+    display: inline;
+    float: right;
+  }
+  
+.toggle-button {
+    padding: 0.6rem 1.25rem;
+    background-color: #ddd;
+    border-radius:1.25rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    min-width: 125px;
+    margin: 0;
+  }
+  
+.toggle-button.on {
+    background-color: #CF6E4F;
+    border: solid;
+    border-width: 0.1rem;
+    border-color: #CF6E4F;
+    color: white;
+  }
+  
+.toggle-button.off {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: black;
+  }
+
+.toggle-button.on:hover {
+  filter: saturate(150%);
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button.off:hover { 
+  filter: brightness(90%);
+  transition: background-color 0.3s ease;
+}
+
+/*.errorText {*/
+/*  text-align: center;*/
+/*  padding: 1%;*/
+/*  font-size: 0.9rem;*/
+/*  width: 18.75rem;*/
+/*  color: #da0000;*/
+/*  background-color: #ff9c9c;*/
+/*  border-width: thin;*/
+/*  border-style: ridge;*/
+/*  border-color: black;*/
+/*  border-radius: 0.625rem;*/
+/*}*/
+
+/*Comments.jsx*/
+.comments-container {
+  padding: 1rem;
+}
+
+.no-comments-msg {
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.comments-wrapper {
+  max-height: 20rem;
+  overflow-y: auto;
+}
+
+.comments-wrapper ul{
+  margin: 0;
+  padding: 0;
+}
+
+.comment-wrapper + .comment-wrapper {
+  padding-top: 1rem;
+}
+
+.comment-text-wrapper {
+  font-size: 1rem;
+}
+
+.comment-user-pfp {
+  padding-right: 0.5rem;
+  display: inline-flex;
+}
+
+.user-pfp {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
+}
+
+.comment-username {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.new-comment {
+  padding-top: 1rem;
+}
+
+.comment-input-wrapper {
+  position: relative;
+}
+
+.comment-input-box {
+  padding: 0.7rem 0rem 0.7rem 0.5rem;
+  margin: 0;
+  width: calc(100% - 0.5rem);
+  border: 1px solid black;
+  border-radius: 1rem;
+  outline: none;
+}
+
+.submit-icon {
+  position: absolute;
+  float: right;
+}
+
+.comment-submit-btn {
+  background: #CF6E4F;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  margin-right: 0.1rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.8rem;
+}
+
+.comment-submit-btn:enabled {
+  border: none;
+  cursor: pointer;
+}
+
+.comment-submit-btn:disabled {
+  display: none;
+}
+
+
+/*
+UserCardv2-Jessica.jsx
+*/
+
+
+#profile-container {
+  margin: 3rem auto auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90vw;
+  /* max-width: 90%; */
+}
+
+.profile-element {
+  margin-top: 1rem;
+}
+
+.user-card-container {
+  background-color: white;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #333333;
+  border-radius: 3rem;
+  margin-bottom: 1rem;
+}
+
+#user-card-wrapper {
+  margin: 2rem;
+  display: flex;
+}
+
+#profile-pic-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+#profile-pic img {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+}
+
+#user-card-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: left;
+  justify-content: space-between;
+}
+
+#user-card-heading {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+#user-card-text-wrapper h1, h2, p{
+  margin: 0;
+}
+
+#display-name-wrapper {
+  padding: 0;
+  margin: 0;
+}
+
+#display-name-wrapper h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 0.1rem;
+}
+
+
+#follow-button-wrapper {
+  padding: 0;
+  margin: 0;
+  margin-left: 1rem;
+}
+
+
+#profile-username-wrapper h2 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: grey;
+  margin-bottom: 0.8rem;
+}
+
+#profile-bio-wrapper p {
+  font-size: 1.3rem;
+  word-break: break-word;
+}
+
+#friends-wrapper {
+
+  margin-top: 0.6rem;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.friend-count {
+  color: grey;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.friend-count:hover {
+  text-decoration: underline;
+  color: #CF6E4F;
+}
+
+
+#preferences-container {
+  margin-bottom: 2rem;
+}
+
+.preferences-wrapper {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #333333;
+}
+
+.preferences-wrapper {
+  display: flex;
+
+  background-color: white;
+  border-radius: 3rem;
+}
+
+.preference-type {
+  padding: 1rem 0.5rem 1rem 1.5rem;
+  background-color: #EAA861;
+  max-width: 30vw;
+  /*min-width: fit-content;*/
+  line-height: 2.2rem;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+
+.preference-type-2 {
+  max-width: 30vw;
+  /*min-width: fit-content;*/
+}
+
+
+.preferences-wrapper h4 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.pencil-icon {
+  cursor: pointer;
+}
+
+.preference-tags {
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+/* for webkit browsers: chrome, safari */
+.preference-tags::-webkit-scrollbar {
+  width: 0;
+}
+
+/*all the tags*/
+.tags-wrapper {
+  display: inline-flex;
+  flex-direction: row;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+/*each individual tag*/
+.tag-container {
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  margin-right: 0.7rem;
+  border-radius: 1rem;
+  background-color: #4F9BFF;
+  color: white;
+  cursor: pointer;
+}
+
+
+.nopref-tag {
+  line-height: 2.2rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+/* embed recipes */
+
+#posts-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 3rem;
+  border: 1px solid #333333;
+  border-radius: 3rem;
+  background-color: white;
+}
+
+.my-recipes, .my-cookbooks {
+  width: 90vw;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+
+.tabs button{
+  width: 50%;
+  font-size: 1.2rem;
+  background-color: white;
+  padding: 1rem;
+  border: none;
+  border-bottom: 0.5rem solid rgb(208, 208, 208);
+}
+
+.tab-btn-recipes {
+  border-top-left-radius: 3rem;
+}
+
+.tab-btn-cookbooks {
+  border-top-right-radius: 3rem;
+}
+
+.tabs button:hover{
+  filter: brightness(90%);
+  cursor: pointer;
+}
+
+.tabs button.active {
+
+  /* background-color: white; */
+
+  border-color: #CF6E4F;
+  /* border-bottom-color: rgb(255, 132, 0); */
+}
+
+/* delete / post buttons */
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.buttons-container > div {
+  margin: 0 10px; 
+}
+
+.buttons-container button {
+  color: white;
+  cursor: pointer;
+  border: black solid 0.0625rem;
+  border-radius: 0.6rem;
+  padding: 0.6rem 0.8rem;
+  transition: background-color 0.3s ease;
+}
+
+.buttons-container button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.delete-recipe-button {
+  background-color: #da0000;
+}
+
+.create-recipe-button {
+  background-color: #CF6E4F;
+}
+
+.my-recipes-container, .my-cookbooks-container {
+  height: 100%;
+}
+
+.noposts-text {
+  font-size: 1.2rem;
+}
+
+.editor { /* unused */
+  float: right;
+  margin-right: 5px;
+  /*background-color: lightblue;
+  border-radius: 15px;
+  height: 105%;
+  width: 120%;
+  text-align: center;*/
+}
+
+.newEditor {
+  /*float: right;*/
+  margin-top: 3px;
+  margin-right: 5px;
+  border-radius: 15px;
+  border-width: thin;
+  background-color: #CF6E4F;
+  color: white;
+}
+
+.newEditor:hover{
+  cursor: pointer;
+  background-color: #A65035;
+}
+
+.newEditorSaving {
+  margin-right: 5px;
+  border-radius: 15px;
+  border-width: thin;
+  background-color: #87CEFA;
+}
+
+.newEditorSaving:hover{
+  cursor: pointer;
+  background-color: #ceebfd
+}
+
+.editor:hover {
+  cursor: pointer;
+  color: pink;
+}
+
+.delet {
+  float: right;
+  height: 25px;
+  width: 25px;
+  /*display: inline-block;*/
+}
+
+.saveBtn {
+  align-self: center;
+}
+
+.delet:hover {
+  cursor: pointer;
+}
+
+.editDeleteContainer {
+  margin-left: auto; /* new */
+  order: 2;
+  margin-top: 10px; /* */
+}
+
+@media (max-width: 480px) {
+  #profile-pic img {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+  }
+  
+  #display-name-wrapper h1 {
+    font-size: 1.5rem;
+  }
+
+  #profile-username-wrapper h2 {
+    font-size: 1.05rem;
+  }
+
+  #profile-bio-wrapper p {
+    font-size: 0.975rem;
+  }
+
+  #friends-wrapper {
+    margin-top: 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  .preferences-wrapper h4 {
+    margin: 0;
+    max-width: 30vw;
+  }
+
+  .preference-type {
+    max-width: 30vw;
+  }
+
+  .preference-tags {
+    max-width: 100%; /*second value == .preference-type min-width*/
+  }
+
+  .tags-wrapper {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}
+
