@@ -4,4 +4,4 @@ Recipe Pantry is a social media application designed to assist those looking to 
 
 # Try it out!
 
-Go to https://webdev.cse.buffalo.edu/hci/teams/uimax
+Go to https://recipepantry.tiffycai.com/
